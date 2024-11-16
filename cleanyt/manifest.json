@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "YouTube Cleaner",
+    "version": "1.0",
+    "description": "Removes unwanted elements from YouTube",
+    "permissions": [
+        "*://*.youtube.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["*://*.youtube.com/*"],
+            "js": ["cleaner.js"],
+            "run_at": "document_idle"
+        }
+    ],
+    "icons": {
+        "48": "icon48.png",
+        "128": "icon128.png"
+    }
+}
