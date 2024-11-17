@@ -16,7 +16,7 @@ A Firefox extension that automatically removes unwanted elements from YouTube pa
 
 1. Clone this repository or download the files:
 ```bash
-git clone https://github.com/ssghait007/cleanyt
+git clone https://github.com/devanshupatil/cleanyt
 cd cleanyt
 ```
 
